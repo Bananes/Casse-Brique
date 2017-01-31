@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-682.2222222222223" y="768.8888888888888">Raquette</node>
+    <node x="-158.55555555555554" y="567.3333333333335">Collision</node>
+    <node x="-693.6666666666665" y="198.88888888888897">Balle</node>
+    <node x="650.0" y="-350.44444444444457">Fichier</node>
+    <node x="295.66666666666663" y="841.1111111111111">Panneau</node>
+    <node x="-628.4444444444443" y="418.33333333333337">Brick</node>
+    <node x="-345.55555555555554" y="-99.99999999999999">State</node>
+    <node x="738.8888888888889" y="385.11111111111114">Fenetre</node>
+    <node x="332.1111111111113" y="-10.0">PanneauLateral</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="State" target="Raquette">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="Collision">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="Fichier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="PanneauLateral" target="Fenetre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fenetre" target="Panneau">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fenetre" target="PanneauLateral">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Panneau" target="Fenetre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fenetre" target="Raquette">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Panneau" target="Raquette">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="Balle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fenetre" target="Fichier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="PanneauLateral">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="Brick">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="PanneauLateral" target="Fichier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Panneau" target="State">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="State" target="Fenetre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="178.33333333333326" y="582.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
